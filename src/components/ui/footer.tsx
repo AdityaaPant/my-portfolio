@@ -34,7 +34,7 @@ export default function Footer() {
 						<i className="fa-brands fa-instagram"></i>
 					</a>
 					<a
-						href="https://www.linkedin.com/in/aditya-pant-948a4b287/"
+						href="https://www.linkedin.com/in/adityaapant/"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="hover:text-[#0a66c2] transition"
