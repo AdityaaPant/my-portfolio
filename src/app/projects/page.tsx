@@ -31,6 +31,13 @@ export default function project() {
 								tech={["React", "TypeScript", "Tailwind", "nodejs", "mongDB"]}
 								url="https://timetrackerr.vercel.app"
 							/>
+							<ProjectCard
+								title="Raj Bihari"
+								subtitle="Clothing Business"
+								description="A clothing business based in Delhi, India sells premium ethinic women clothing"
+								tech={["Liquid", "HTML", "CSS", "MySQL"]}
+								url="https://rajbihari.in"
+							/>
 						</div>
 					</section>
 				</div>

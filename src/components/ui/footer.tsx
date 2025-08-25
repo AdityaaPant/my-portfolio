@@ -6,7 +6,7 @@ export default function Footer() {
 				<p className="text-sm text-gray-400">
 					Want to collaborate or just say hi?{" "}
 					<a
-						href="mailto:pantanupam05@gmail.com?subject=Hello%20Aditya"
+						href="mailto:work@adityapant.com?subject=Hello%20Aditya"
 						className="text-[#00b4d8] underline"
 					>
 						Let’s connect.

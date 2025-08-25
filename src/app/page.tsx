@@ -42,7 +42,7 @@ export default function Home() {
 						</h3>
 						<p className="text-gray-400 border-b border-gray-800 pb-6">
 							I&apos;m currently working as a{" "}
-							<span className="font-medium">Full Stack Developer</span>{" "}
+							<span className="font-medium">Full Stack Developer at</span>{" "}
 							<span className="inline-block bg-[#00b4d8]/10 text-[#00b4d8] font-medium px-3 py-[1px] m-1 rounded-md text-sm border border-[#00b4d8]">
 								The Asian Kid
 							</span>
