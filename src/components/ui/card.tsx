@@ -1,10 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 interface ProjectCardProps {
 	title: string;
 	subtitle: string;
 	description: string;
 	tech: string[];
 	url: string;
+	imageUrl?: string;
 }
 
 export default function ProjectCard({
@@ -13,9 +15,15 @@ export default function ProjectCard({
 	description,
 	tech,
 	url,
+	imageUrl,
 }: ProjectCardProps) {
 	return (
 		<div className="bg-gradient-to-br from-[#1a1a1a] to-[#111] p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 group">
+			<div>
+				{imageUrl && (
+					<Image src={imageUrl} width={500} height={200} alt="Project Image" />
+				)}{" "}
+			</div>
 			<div className="flex flex-col gap-2">
 				<Link
 					href={url}

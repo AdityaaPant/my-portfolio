@@ -20,9 +20,23 @@ export default function project() {
 							<ProjectCard
 								title="Coaching Platform"
 								subtitle="The Asian Kid (under Development)"
-								description="A full-featured coaching website that connects students and teachers, creating a smooth, engaging learning environment."
+								description="A full-featured coaching website that connects students and teachers, creating a smooth, engaging learning environment. It has multiple user interfaces, a guest website , student dashboard , teacher dashboard and admin panel."
 								tech={["Next.js", "Tailwind", "postgreSQL", "Node.js"]}
 								url=""
+							/>
+							<ProjectCard
+								title="MyCCET"
+								subtitle="College Management system"
+								description="MyCCET was a college management system made for college staff for maintaining students digitally. Myccet has record of all enrolled students , their results , semesters and batches. They  can create Provisional Certificate. "
+								tech={["Next.js", "Tailwind", "postgreSQL", "Node.js"]}
+								url=""
+							/>
+							<ProjectCard
+								title="Project Jalshakti"
+								subtitle="Water Wiki"
+								description="Project jalshakti was blogging website made for SIH. It was a website made to share knowledge related to water. It was just like wikipedia but for water related knowledge."
+								tech={["EJS", "MongoDB", "Javascript", "Node.js"]}
+								url="https://jalshakti.infyfix.com"
 							/>
 							<ProjectCard
 								title="Time Tracker"
