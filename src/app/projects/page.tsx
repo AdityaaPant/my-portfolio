@@ -22,6 +22,7 @@ export default function project() {
 								subtitle="The Asian Kid (under Development)"
 								description="A full-featured coaching website that connects students and teachers, creating a smooth, engaging learning environment. It has multiple user interfaces, a guest website , student dashboard , teacher dashboard and admin panel."
 								tech={["Next.js", "Tailwind", "postgreSQL", "Node.js"]}
+								url="https://asian-kid-demo-1l51.vercel.app"
 							/>
 							<ProjectCard
 								title="MyCCET"
