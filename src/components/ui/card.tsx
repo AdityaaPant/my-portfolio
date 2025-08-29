@@ -5,7 +5,7 @@ interface ProjectCardProps {
 	subtitle: string;
 	description: string;
 	tech: string[];
-	url: string;
+	url?: string;
 	imageUrl?: string;
 }
 
@@ -25,13 +25,19 @@ export default function ProjectCard({
 				)}{" "}
 			</div>
 			<div className="flex flex-col gap-2">
-				<Link
-					href={url}
-					target="_blank"
-					className="text-base sm:text-lg font-semibold text-white group-hover:text-[#00b4d8] transition"
-				>
-					{title}
-				</Link>
+				{url ? (
+					<Link
+						href={url}
+						target="_blank"
+						className="text-base sm:text-lg font-semibold text-white group-hover:text-[#00b4d8] transition"
+					>
+						{title}
+					</Link>
+				) : (
+					<span className="text-base sm:text-lg font-semibold text-white">
+						{title}
+					</span>
+				)}
 				<p className="text-sm text-gray-400">{subtitle}</p>
 				<p className="text-gray-300 mt-2 mb-4">{description}</p>
 				<div className="flex flex-wrap gap-2">
