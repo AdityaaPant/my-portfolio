@@ -49,9 +49,9 @@ export default function Home() {
                 className="inline-block bg-[#00b4d8]/10 text-[#00b4d8] font-medium px-3 py-[1px] m-1 rounded-md text-sm border border-[#00b4d8]"
                 href="https://avenueticket.com"
               >
-                Avenue Ticketing
+                Avenue Ticketing.
               </Link>
-              is a streamlined platform for buying and managing event tickets. It provides dedicated panels for both event organizers and event attendees, making the entire process simple and efficient. AvenueTicket serves as a one-stop solution for all event-related needs, from ticket sales to event management.
+              Avenue Ticketing is a streamlined platform for buying and managing event tickets. It provides dedicated panels for both event organizers and event attendees, making the entire process simple and efficient. AvenueTicket serves as a one-stop solution for all event-related needs, from ticket sales to event management.
             </p>
           </section>
 
