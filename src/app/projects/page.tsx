@@ -24,7 +24,7 @@ export default function project() {
 It supports both organizers and attendees with dedicated panels.
 It brings everything related to events into one simple place."
                 tech={["Next.js", "Tailwind", "postgreSQL", "Node.js"]}
-                url="https://avenueticket.com/for-organizers"
+                url="https://avenueticket.com"
               />
               <ProjectCard
                 title="The Asian Kid"
